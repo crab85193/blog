@@ -9,7 +9,9 @@ publishDir = "docs"
 canonifyurls = "true"
 
 [params]
-  image = "/images/default.png"
+  twitterID = "@crab85193"
+  description = "カニのひとりごとです。美味しいもの食べたとかプログラム作ったとか書きます。"
+  image = ["/images/default.png"]
 
 [author]
   name = "Crab Anderson"
