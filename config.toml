@@ -1,4 +1,4 @@
-baseurl = "https://crab85193.me/blog"
+baseurl = "https://crab85193.github.io/blog"
 languageCode = "ja"
 title = "カニのひとりごと"
 theme = "charaka-hugo-theme"
@@ -15,7 +15,7 @@ canonifyurls = "true"
 
 [author]
   name = "Crab Anderson"
-  homepage = "https://crab85193.me/blog"
+  homepage = "https://crab85193.github.io/blog"
 
 [params.highlight]
   style = "zenburn"
