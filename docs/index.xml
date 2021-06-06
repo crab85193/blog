@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/crab85193&#34;&gt;Crab Anderson&lt;/a&gt; 2021</copyright>
-    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://crab85193.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jun 2021 15:36:03 +0900</lastBuildDate><atom:link href="https://crab85193.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello.I&#39;m CrabAnderson!</title>
+      <link>https://crab85193.me/blog/posts/hello/</link>
+      <pubDate>Sun, 06 Jun 2021 15:36:03 +0900</pubDate>
+      
+      <guid>https://crab85193.me/blog/posts/hello/</guid>
+      <description>こんにちは。CrabAndersonです。
+Hugoでブログ作ったので、これからちょくちょく書いていこうと思います。
+よろしく。</description>
+    </item>
+    
   </channel>
 </rss>
