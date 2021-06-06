@@ -5,7 +5,6 @@ title: "Hello.I'm CrabAnderson!"
 tags: [Hello]
 weight: 10
 draft: false
-eyecatch: "/images/default.png"
 ---
 
 こんにちは。CrabAndersonです。

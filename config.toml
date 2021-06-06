@@ -9,7 +9,7 @@ publishDir = "docs"
 canonifyurls = "true"
 
 [params]
-og_image = "images/default.png"
+  image = "images/default.png"
 
 [author]
   name = "Crab Anderson"
