@@ -1,0 +1,33 @@
+baseurl = "https://crab85193.me/blog"
+languageCode = "ja"
+title = "カニのひとりごと"
+theme = "charaka-hugo-theme"
+copyright = "&copy; <a href=\"https://github.com/crab85193\">Crab Anderson</a> 2021"
+disqusShortname = ""
+googleAnalytics = ""
+publishDir = "docs"
+canonifyurls = "true"
+
+[params]
+
+[author]
+  name = "Crab Anderson"
+  homepage = "https://crab85193.me/blog"
+
+[params.highlight]
+  style = "zenburn"
+
+[params.share]
+  enabled = "true"
+
+[[params.social]]
+  url = "about"
+  fa_icon = "fas fa-info"
+
+[[params.social]]
+  url = "https://github.com/crab85193/"
+  fa_icon = "fab fa-github"
+
+[[params.social]]
+  url = "https://twitter.com/crab85193/"
+  fa_icon = "fab fa-twitter"
