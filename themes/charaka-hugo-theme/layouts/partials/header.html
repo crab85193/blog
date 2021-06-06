@@ -10,9 +10,43 @@
 
 <link rel="stylesheet" href="{{ $scratch.Get "baseURL" }}/css/styles.css">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
 integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<!-- og設定　-->
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:url" content="{{ .Permalink | absURL }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{ if .Params.image }}
+  <meta property="og:image" content="{{ .Params.Image | absURL }}">
+  <meta property="og:image:url" content="{{ .Params.Image | absURL }}">
+{{ else }}
+  <meta property="og:image" content="{{ .Site.Params.og_image | absURL }}">
+  <meta property="og:image:url" content="{{ .Site.Params.og_image | absURL }}">
+{{ end }}
+{{ if .Params.description }}
+  <meta property="og:description" content="{{ .Params.description }}">
+{{ else }}
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+<!-- Twitterカード設定 -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="{{ .Title }}">
+{{ if .Params.image }}
+  <meta property="twitter:image" content="{{ .Params.Image | absURL }}">
+  <meta property="twitter:image:url" content="{{ .Params.Image | absURL }}">
+{{ else }}
+  <meta property="twitter:image" content="{{ .Site.Params.og_image | absURL }}">
+  <meta property="twitter:image:url" content="{{ .Site.Params.og_image | absURL }}">
+{{ end }}
+  {{ if .Params.description }}
+  <meta property="twitter:description" content="{{ .Params.description }}">
+{{ else }}
+  <meta property="twitter:description" content="{{ .Site.Params.description }}">
+{{ end }}
 
 {{ with .Site.Params.highlight.style }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ . }}.min.css" crossorigin="anonymous" />
