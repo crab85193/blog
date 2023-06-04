@@ -1,19 +1,21 @@
 ---
 title: Hello World
-description: Welcome to Hugo Theme Stack
+description: Hello, I'm Crab Anderson!!
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
+date: 2022-11-19 00:00:00+0000
 image: cover.jpg
+comments: false
 categories:
-    - Example Category
+    - Diary
 tags:
-    - Example Tag
+    - Diary
+    - Log
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+初めまして、CrabAndersonです。
 
-For more information about this theme, check the documentation: https://docs.stack.jimmycai.com/
+hugoでブログを作りました。
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+定期的に書き留めていきます。
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+よろしくお願いします。

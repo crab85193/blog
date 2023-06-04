@@ -2,19 +2,24 @@
 title: Links
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
+    description: ""
+    website: https://github.com/crab85193/
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Twitter
+    description: ""
+    website: https://twitter.com/crab85193/
+    image: https://www.skillfinder.com.au/media/wysiwyg/twitter-logo-vector-png-clipart-1.png
 menu:
-    main: 
-        weight: 4
+    main:
+        weight: 5
         params:
             icon: link
 
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
+
+<!-- To use this feature, add `links` section to frontmatter.
 
 This page's frontmatter:
 
@@ -30,4 +35,4 @@ links:
     image: ts-logo-128.jpg
 ```
 
-`image` field accepts both local and external images.
+`image` field accepts both local and external images. -->
