@@ -18,7 +18,7 @@ subtitle = "El Amor No Respeta la Ley, Ni Obedece a Rey"
 [sidebar.avatar]
 enabled = true
 local = false
-src = "img/crab.png"
+src = "/img/crab.png"
 
 [article]
 math = false
