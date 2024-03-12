@@ -7,10 +7,9 @@ image: cover.jpg
 comments: false
 draft: false
 categories:
-    - Diary
+    - Event Report
 tags:
-    - Diary
-    - Event
+    - Event Report
     - IoTハッカソン2022
 
 links:

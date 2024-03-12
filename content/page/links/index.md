@@ -9,6 +9,10 @@ links:
     description: ""
     website: https://twitter.com/crab85193/
     image: https://www.skillfinder.com.au/media/wysiwyg/twitter-logo-vector-png-clipart-1.png
+  - title: Misskey
+    description: ""
+    website: https://misskey.io/@crab_anderson
+    image: https://proxy.misskeyusercontent.com/avatar.webp?url=https%3A%2F%2Fmedia.misskeyusercontent.com%2Fio%2F380f8218-cb0c-4916-86e2-8e3bcde5b474.webp&avatar=1
 menu:
     main:
         weight: 5

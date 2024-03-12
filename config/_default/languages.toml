@@ -1,7 +1,7 @@
 # Uncomment this file to enable multilanguage site support
 
-[en]
-languageName = "English"
+[ja]
+languageName = "Japanese"
 languagedirection = "ltr"
 title = "Crab's Blog"
 weight = 1
