@@ -7,9 +7,6 @@ image: cover.jpg
 comments: false
 categories:
     - Diary
-tags:
-    - Diary
-    - Log
 ---
 
 初めまして、CrabAndersonです。

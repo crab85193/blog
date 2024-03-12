@@ -9,7 +9,6 @@ draft: false
 categories:
     - Event Report
 tags:
-    - Event Report
     - IoTハッカソン2022
 
 links:
